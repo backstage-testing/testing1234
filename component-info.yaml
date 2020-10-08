@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: testing1234
+  description: testing1234
+  annotations:
+    github.com/project-slug: backstage-testing/testing1234
+    backstage.io/techdocs-ref: github:https://github.com/backstage-testing/testing1234
+spec:
+  type: service
+  lifecycle: experimental
+  owner: kishoresanke
